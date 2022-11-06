@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>Portfolio</title>
-	<!-- css files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
@@ -18,7 +17,7 @@
 			<div class="nav-left">
 				<a href="https://stackoverflow.com/users/17752861/atef-shahrier-evan" class="nav-item">
 					<span class="icon">
-						<i class="fa fa-medium"></i>
+						<i class="fa fa-facebook"></i>
 					</span>
 				</a>
 				<a href="https://github.com/Bugg-Bitter" class="nav-item">
@@ -26,9 +25,9 @@
 						<i class="fa fa-github"></i>
 					</span>
 				</a>
-				<a href="https://twitter.com/hassanhelfi" class="nav-item">
+				<a href="https://www.facebook.com/profile.php?id=100028291062142" class="nav-item">
 					<span class="icon">
-						<i class="fa fa-twitter"></i>
+						<i class="fa fa-facebook"></i>
 					</span>
 				</a>				
 			</div>
@@ -40,8 +39,6 @@
 				<a class="nav-item" href="#social">Social</a>
 			</div>
 
-			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
 			<span class="nav-toggle">
 				<span></span>
 				<span></span>
@@ -52,7 +49,7 @@
 		<!-- About Me -->
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered ">
-				<img class="avatar " src="https://avatars.githubusercontent.com/u/91305837?v=4">
+				<img class="avatar " src="https://avatars.githubusercontent.com/u/91305837?s=400&u=e6729b4f733da2955325dc8bdabc4cea6621e8e9&v=4">
 			</div>
 				<h1 style="font-size: 60px; text-align: center; padding-top: 3%;"> MySelf <span style="color: rgb(118, 237, 118);"> Atef Shahrier Evan </span></h1>
 			<p class="aboutp" style="color: #D8D8D8; padding-left: 5%; padding-right: 5%; padding-top: 3%; font-size: 24px;">I previously worked in <strong style="color: white;"> Junior App Developer </strong> at Positive It World
@@ -64,6 +61,34 @@
 			<div class="personalInfo">
 				<h1>Personal Information</h1>
 			</div>
+			<style>
+				body {
+					padding:0;
+					margin-right: 0;
+				}
+				main {
+					display: grid;
+					place-items: center;
+					margin-right: 900px;
+					position: relative
+				}
+				#eyes, #eyes img {
+					position: absolute;
+					height: 20px;
+					width: 20px;
+					border-radius: 50%;
+				}
+			</style>
+			<main>
+				<img id="anchor" src="hover/bg.png" height="100px" width="auto">
+				<div id="eyes">
+					<img class="eye" src="hover/eye.png" 
+						style="bottom: 14px; right: 4px">
+
+					<img class="eye" src="hover/eye.png" 
+						style="bottom: 14px; left: 23px;">
+				</div>
+			</main>
 			<div class="box1" style="font-size: 25px; padding-top: 2%; padding-bottom: 2%;">
 				<p> <span> Date of Birth: </span> 27/04/2000 </p>
 				<p> <span> Place of Birth: </span> Kushtia  </p>
@@ -114,7 +139,7 @@
 							<article>
 								<div>
 									<figure class="image project-figure">
-										<img src="https://lh3.googleusercontent.com/Wyig7a-Ga_WRueUr2x0V3AYNJvBa9Y7zrxZZDUA3fVYCCbWjGAcY4LO6D8d54y6DMpkiBYncrOK20yqgVdCeBrQ=w16383" alt="Image" >
+										<img src="https://user-images.githubusercontent.com/91305837/200037290-d8c0a05a-8d92-4a6d-8b5a-916d8f584974.png" alt="Image" height="50px" width="70px">
 									</figure>
 								</div>
 								<div>
@@ -214,13 +239,12 @@
 			</div>
 		</section>	
 		
-		<!-- Footer -->
 		<div class="footer"> created by <span> Mr. Evan </span> | all rights reserved! </div>
 
 		
-		<!-- Scripts  -->
+		
 		<script src="controller.js"></script>	
-
+		<script src="hover/app.js"></script>
 		</script>
 	</body>	
 </html>
